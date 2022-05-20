@@ -15,7 +15,7 @@ function App() {
          setQue(response.data.results[0]);    
          console.log("ingetque:"+q)
     })
-    return q;     
+       
   }
   
   useAlan({getQue});
